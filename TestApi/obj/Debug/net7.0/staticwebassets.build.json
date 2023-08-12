@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iqJi9eClmheHJPDnRPmHJVamiaRxbxYVPVqP4bcJn5M=",
+  "Hash": "DfJO5vm4S73okCiad6hPmYgqkUThA6QB/iNpIihzo4c=",
   "Source": "TestApi",
   "BasePath": "_content/TestApi",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "TestApi\\wwwroot",
       "Source": "TestApi",
-      "ContentRoot": "C:\\Users\\m.talebi\\source\\repos\\TestApi\\TestApi\\wwwroot\\",
+      "ContentRoot": "E:\\WORK\\projects\\TestApiMain\\TestApi\\wwwroot\\",
       "BasePath": "_content/TestApi",
       "Pattern": "**"
     }

@@ -8,6 +8,7 @@ using TestApi.MiddleWares;
 using TestApi.Models;
 using TestApi.Services;
 using TestApi.Services.IServices;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddSingleton(typeof(InputData));
 builder.Services.AddTransient<BaseExceptionHandlerMiddleware>();
+builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddControllers().AddNewtonsoftJson();
 
@@ -36,6 +38,7 @@ app.UseMiddleware<BaseExceptionHandlerMiddleware>();
 
 
 app.UseRouting();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

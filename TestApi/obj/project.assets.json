@@ -1687,23 +1687,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m.talebi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Lifeservice\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m.talebi\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
+      "projectUniqueName": "E:\\WORK\\projects\\TestApiMain\\TestApi\\TestApi.csproj",
       "projectName": "TestApi",
-      "projectPath": "C:\\Users\\m.talebi\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
-      "packagesPath": "C:\\Users\\m.talebi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m.talebi\\source\\repos\\TestApi\\TestApi\\obj\\",
+      "projectPath": "E:\\WORK\\projects\\TestApiMain\\TestApi\\TestApi.csproj",
+      "packagesPath": "C:\\Users\\Lifeservice\\.nuget\\packages\\",
+      "outputPath": "E:\\WORK\\projects\\TestApiMain\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\m.talebi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lifeservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1783,7 +1779,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
