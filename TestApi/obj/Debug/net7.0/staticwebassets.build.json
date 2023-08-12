@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "iqJi9eClmheHJPDnRPmHJVamiaRxbxYVPVqP4bcJn5M=",
+  "Source": "TestApi",
+  "BasePath": "_content/TestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestApi\\wwwroot",
+      "Source": "TestApi",
+      "ContentRoot": "C:\\Users\\m.talebi\\source\\repos\\TestApi\\TestApi\\wwwroot\\",
+      "BasePath": "_content/TestApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
